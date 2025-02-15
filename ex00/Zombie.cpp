@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marco <marco@student.42.fr>                +#+  +:+       +#+        */
+/*   By: mapichec <mapichec@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/14 14:43:01 by marco             #+#    #+#             */
-/*   Updated: 2025/02/14 16:03:36 by marco            ###   ########.fr       */
+/*   Updated: 2025/02/15 19:03:34 by mapichec         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,14 @@
 
 void Zombie::announce ()
 {
-    std::cout << name << "BraiiiiiiinnnzzzZ..." << std::endl;
+   std::cout << name << "BraiiiiiiinnnzzzZ..." << std::endl;
+}
+
+Zombie::Zombie(std::string input_name)
+{
+	name = input_name;
+}
+
+Zombie::~Zombie()
+{
 }

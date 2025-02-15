@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   newZombie.cpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marco <marco@student.42.fr>                +#+  +:+       +#+        */
+/*   By: mapichec <mapichec@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/14 14:43:09 by marco             #+#    #+#             */
-/*   Updated: 2025/02/14 18:08:08 by marco            ###   ########.fr       */
+/*   Updated: 2025/02/15 16:07:18 by mapichec         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,5 @@ Zombie* newZombie(std::string name)
 	Zombie *new_zombie = NULL;
 
 	new_zombie = new Zombie(name);
+	return new_zombie;
 }
