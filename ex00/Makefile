@@ -3,16 +3,16 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: mapichec <mapichec@student.42.fr>          +#+  +:+       +#+         #
+#    By: marco <marco@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/14 14:42:32 by marco             #+#    #+#              #
-#    Updated: 2025/02/17 15:42:41 by mapichec         ###   ########.fr        #
+#    Updated: 2025/02/21 15:38:57 by marco            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = Brainz
 
-CFLAGS = -Wall -Wextra -Werror -g
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -g
 
 CC = c++
 
@@ -28,6 +28,8 @@ clean:
 	@echo "Cleaning..."
 	@rm $(NAME)
 
+fclean: clean
+
 re: clean all
 
-.PHONY: re clean all
+.PHONY: re clean all fclean

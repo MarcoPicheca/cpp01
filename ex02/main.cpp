@@ -1,5 +1,6 @@
 #include <iostream>
 
+// DONT KNOW IF THIS IS CORRECT DUE TO BAD SUBJECT EXPLANATION
 // void printingg(std::string &stringREF,std::string *stringPTR,std::string str)
 // {
 //     std::cout << "string mem address: " << &str << std::endl;
@@ -19,7 +20,7 @@ int main()
 
     // printingg(str, &str, str);
     std::cout << "string mem address: " << &str << std::endl;
-    std::cout << "stringPTR mem address: " << &stringPTR << std::endl;
+    std::cout << "stringPTR mem address: " << stringPTR << std::endl;
     std::cout << "stringREF mem address: " << &stringREF << std::endl;
 
     std::cout << "string value pointed to: " << str << std::endl;
