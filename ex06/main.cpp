@@ -6,7 +6,7 @@ int main(int ac, char *av[])
 
     if (ac != 2)
     {
-        std::cout << "too many args" << std::endl;
+        std::cout << "wrong arg counting!" << std::endl;
         return 1;
     }
     std::string lev = av[1];
