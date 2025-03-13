@@ -6,13 +6,13 @@
 #    By: mapichec <mapichec@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/14 14:42:32 by marco             #+#    #+#              #
-#    Updated: 2025/03/13 18:50:10 by mapichec         ###   ########.fr        #
+#    Updated: 2025/03/13 18:52:22 by mapichec         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = Brainz
 
-CFLAGS = -Wall -Wextra -Werror -g
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -g
 
 CC = c++
 
@@ -27,7 +27,6 @@ $(NAME): $(SRC)
 clean:
 	@echo "Cleaning..."
 	@rm $(NAME)
-
 
 fclean: clean
 

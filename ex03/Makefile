@@ -1,11 +1,12 @@
-
-NAME = Brainz
+NAME = unnecessary_violence
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -g
 
+
 CC = c++
 
-SRC = main.cpp Zombie.cpp zombieHorde.cpp
+SRC = main.cpp Weapon.cpp \
+	  HumanA.cpp HumanB.cpp \
 
 all: $(NAME)
 

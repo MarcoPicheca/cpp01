@@ -1,11 +1,11 @@
-
-NAME = Brainz
+NAME = replaceFile
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -g
 
+
 CC = c++
 
-SRC = main.cpp Zombie.cpp zombieHorde.cpp
+SRC = main.cpp \
 
 all: $(NAME)
 
